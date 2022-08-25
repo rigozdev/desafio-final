@@ -1,0 +1,26 @@
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #000000;
+}
+main{
+    background-color: #000000;
+}
+section{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+.icon{
+    width: 300px;
+    height: 300px;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
