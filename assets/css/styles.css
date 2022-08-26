@@ -9,9 +9,10 @@ body{
 main{
     background-color: #000000;
 }
-section{
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+.seccion-card-main{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #000000;
 }
 
 .icon{
@@ -23,4 +24,33 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.bienvenida-h2{
+    display: flex;
+    font-size:8vw;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px;
+}
+
+.bienvenida-h4{
+    font-size:2.5vw;
+    padding-left: 20%;
+    padding-right: 20%;
+} 
+
+
+/* Efecto imagen creciendo */
+.img-card{
+    overflow: hidden;
+}
+.container-img{
+    transition: transform 3s;
+}
+.container-img:hover{
+    transform:scale(1.2)
 }
