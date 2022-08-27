@@ -123,3 +123,41 @@ main{
     border-radius: 3px;
     
 }
+
+/* sección tecnologías */
+
+.tecnologias{
+    padding: 5%;
+    display: flex;
+    background-color: red;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tecno{
+
+    display: flex;
+    background-color: blue;
+    width: 280px;
+    height: 280px;
+    border: solid 1px white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.tecno1{
+    background-color: blue;
+    width: 350px;
+    height: 350px;
+    border: solid 1px white;
+}
