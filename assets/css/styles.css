@@ -2,19 +2,30 @@
     border: 0px;
     margin: 0px;
     padding: 0px;
+    
+}
+img{
+    border-radius: 3px;
 }
 body{
     background-color: #000000;
+    background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0);
 }
-main{
-    background-color: #000000;
+
+.presentacion{
+    /* background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0); */
 }
+
 .seccion-card-main{
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #000000;
+    /* background-color: #000000;
+    background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0); */
 }
 
+section{
+    background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0);
+}
 .seccion-form{
     display: flex;
     flex-direction: column;
@@ -23,7 +34,7 @@ main{
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #000000;
+    /* background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0); */
 }
 
 .icon{
@@ -61,9 +72,11 @@ main{
 }
 .container-img{
     transition: transform 3s;
+    border-radius: 3px;
 }
 .container-img:hover{
-    transform:scale(1.2)
+    transform:scale(1.2);
+    border-radius: 3px;
 }
 
 /* card animation */
@@ -75,7 +88,7 @@ main{
 .card:hover{
     transition: 800ms;
     transform: scale(1.06, 1.06);
-    box-shadow: 0px 0px 15px #0e3a18;
+    box-shadow: 0px 0px 15px #75868f;
 }
 
 .margens {
@@ -129,7 +142,8 @@ main{
 .tecnologias{
     padding: 5%;
     display: flex;
-    background-color: red;
+    
+    background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0);
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
@@ -141,23 +155,90 @@ main{
 .tecno{
 
     display: flex;
-    background-color: blue;
-    width: 280px;
-    height: 280px;
-    border: solid 1px white;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    transition: 800ms;
+    background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0);
+    width: 240px;
+    height: 240px;
+    box-shadow: 0px 0px 10px 0px #75868f;
+    border-radius: 3rem;
+    margin-top: 6%;
+    margin-bottom: 6%;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
 
 }
-
+.tecno:hover{
+    transition: 800ms;
+    transform: scale(1.06, 1.06);
+    box-shadow: 0px 0px 20px 10px #75868f;
+}
 
 .tecno1{
     background-color: blue;
     width: 350px;
     height: 350px;
     border: solid 1px white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom right, #28313B, #485461);
+    width: 100%;
+    height: 400px;
+}
+
+.title-tecnologias{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.social-media li, ul, i{
+    color: #D0DAE0;
+    text-decoration: none;
+}
+.social-media ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0%;
+}
+.social-media li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-media a{
+    text-decoration: none;
+    color: #D0DAE0;
+}
+
+.symbol{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
