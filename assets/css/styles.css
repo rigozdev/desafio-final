@@ -12,9 +12,9 @@ body{
     background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0);
 }
 
-.presentacion{
+/*.presentacion{*/
     /* background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0); */
-}
+/*}*/
 
 .seccion-card-main{
     padding-left: 10%;
@@ -50,7 +50,7 @@ section{
 
 .bienvenida-h2{
     display: flex;
-    font-size:5rem;
+    font-size:3.5rem;
     align-items: center;
     align-content: center;
     justify-content: center;
