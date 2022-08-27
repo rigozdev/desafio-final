@@ -2,7 +2,7 @@
     border: 0px;
     margin: 0px;
     padding: 0px;
-    
+    font-family: 'Space Grotesk', sans-serif;
 }
 img{
     border-radius: 3px;
@@ -10,6 +10,7 @@ img{
 body{
     background-color: #000000;
     background-image: linear-gradient(to bottom right, #D0DAE0, #E2EBF0);
+    
 }
 
 /*.presentacion{*/
